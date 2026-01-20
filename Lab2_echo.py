@@ -107,7 +107,7 @@ print(f"Exercise 4: The area of a circle with radius 2 is {area}.")
 
 print("\nExercise 5")
 #days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-day_today = int(input("Enter the number of today (0-6 represents Mon - Sun): "))
+day_today = int(input("Enter the number of today (1-7 represents Mon - Sun): "))
 days_trip = int(input("Enter the trip duration: ")) 
 day_return = (day_today + days_trip) % 7
 print(f"Exercise 5: Your trip starts on {day_today}, lasts {days_trip} days. You are back on {day_return}.")
