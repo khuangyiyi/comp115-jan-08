@@ -73,17 +73,17 @@ num_sides = 6
 exterior_angle = 360 / num_sides
 '''
 
-# alex.clear() # Clear the previous drawing on the screen.
-# alex.speed(1)
-# alex.up()
-# alex.goto(0,0) # go to the centre of drawing screen
-# alex.down()
-# side_length = 100
-# exterior_angle = 360 / 6
-# for _ in range(6):
-#     alex.forward(side_length)
-#     alex.left(exterior_angle)
-# alex.shape("blank")
+alex.clear() # Clear the previous drawing on the screen.
+alex.speed(1)
+alex.up()
+alex.goto(0,0) # go to the centre of drawing screen
+alex.down()
+side_length = 100
+exterior_angle = 360 / 6
+for _ in range(6):
+    alex.forward(side_length)
+    alex.left(exterior_angle)
+alex.shape("blank")
 
 
 
@@ -169,7 +169,6 @@ alex.left(90)
 
 for rainbow_color in rainbow_colors:
     alex.color(rainbow_color)
-    #radius1 = radius + 12
     alex.goto(-radius, 0)
     alex.down()
     alex.circle(-radius, 180)
